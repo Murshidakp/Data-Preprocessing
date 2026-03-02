@@ -1,0 +1,67 @@
+A. Evaluation Rubrics 
+
+1. Understanding of the Dataset and Data Sources 
+o Nature of the data 
+o Type of attributes 
+o Real-world relevance 
+2. Input and Output Specification 
+o Clearly defined features and target variable 
+o Problem formulation 
+3. Mathematical Modeling 
+o Mathematical formulation of the problem 
+o Variables involved 
+o Optimization techniques used 
+4. Computational Steps 
+o Step-by-step explanation of the selected model 
+o Pipeline clarity 
+5. Coding Proficiency 
+o Code readability 
+o Proper use of libraries and functions 
+B. Problem Statement 
+A healthcare analytics company has collected a dataset to predict whether a patient is at 
+high risk of developing a chronic disease. 
+Dataset Description 
+The dataset contains the following attributes: 
+ Patient_ID 
+ Age 
+ Gender 
+ Blood_Pressure (contains missing values) 
+ Cholesterol_Level (contains extreme values / outliers) 
+ Hospital_Visits_Per_Year 
+ Smoking_Status 
+ Exercise_Level 
+ Medical_Notes (free-text data) 
+ Wearable_Sensor_Data (time-series data) 
+ Disease_Risk (binary target variable; highly imbalanced)
+C. Tasks to be Performed 
+1. Data Understanding and Pre-processing 
+o Identify data types (numerical, categorical, text, time-series). 
+o Perform encoding wherever required (with justification). 
+2. Missing Value Handling 
+o Apply an appropriate missing value imputation technique. 
+o Justify the choice of method based on data characteristics. 
+3. Class Imbalance Handling 
+o Address the class imbalance problem using a suitable technique. 
+o Justify why the chosen method is appropriate. 
+4. Outlier Detection and Treatment 
+o Detect outliers in relevant features. 
+o Apply a suitable outlier handling method with justification. 
+5. Feature Scaling 
+o Perform normalization or standardization. 
+6. Feature Selection / Dimensionality Reduction 
+Apply and compare the following methods: 
+o Variance-based feature selection 
+o Information Gain 
+o Forward Feature Selection 
+o Principal Component Analysis (PCA) 
+7. Model Building 
+o Apply Logistic Regression for classification.. 
+8. Comparative Study 
+o Compare Logistic Regression performance with: 
+ No feature selection 
+ Variance method 
+ Information Gain 
+ Forward Selection 
+ PCA 
+o Present results in a tabular format using F1-Score as the primary evaluation 
+metric.
